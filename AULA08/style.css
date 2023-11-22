@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;  
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #999999; 
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 1.5em;    
+}
+
+input {
+    margin-bottom: 1em;
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    height: 2.5em;
+    border-radius: .5em;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    padding-left: .3em;
+}
+
+.body {
+    background-color: #A7D7C5;
+}
+
+.formulario-container {
+    border-radius: 18px;
+    width: 40%;
+    margin: 10em auto;
+    background-color: #f7f7f7;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+
+.btn {
+    width: 100%;
+    margin-top: .6em;
+    background-color: #49b98f;
+    border: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: .3em;
+    border-radius: 8px;
+}
+
+::placeholder {
+    padding-left: .5em;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+    font-family: Poppins, sans-serif;
+    background-image: url(./Img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    color: #a10303;
+    text-align: center;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    font-size: 1em;
+    text-align: left;
+    color: rgb(88, 88, 88);
+    font-weight: lighter;
+}
+
+.container {
+    background-color: #d6d6d6;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+    margin: 1em auto;
+    padding: 2em;
+    }
+
+.linha {
+    width: 100%;
+}
+
+.itens {
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgb(88, 88, 88);
+}

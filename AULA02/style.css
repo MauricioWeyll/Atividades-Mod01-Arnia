@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+h1 {
+    color: blueviolet;
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.subtítulos {
+    font-family: 'Edu TAS Beginner', cursive;

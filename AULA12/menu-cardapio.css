@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #fff2ee;
+    
+}
+
+.titulo-principal {
+    text-align: center;
+    color: #dc5400;
+    padding: 30px;
+}
+
+.container {
+    background-color: #fff;
+    width: 100;
+    margin: 1em;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center
+}
+
+.container-texto {
+    font-size: 16px;
+}
+
+.restaurante {
+    text-decoration: none;
+}
+
+.img {
+    padding: 10px;
+    width: 60px;
+    object-fit: cover; border-radius: 50%;
+}
+
+.valor-entrega {
+    color: red;
+}
+
+.nome-restaurante {
+    color: #252527;
+}
+
+.container2 {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 1.2em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 1em;
+
+}
+
+.img-itens {
+    width: 300px;
+    height: auto;
+    border-radius: 1.25em;
+    max-height: 50%;
+    
+}
+
+.btn-container {
+    display: flex;
+    margin: 15px 0;
+}
+
+.conteudo-container {
+    margin-left: 15px;
+    color: rgb(68, 68, 68);
+    padding: 10px;
+    
+}
+
+.valor-item {
+    color: #dc5400;
+    font-size: 1.25em;
+    margin-right: 3em;
+}
+
+.btn-pedir {
+    width: 100px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: #dc5400;
+}
+
+.style-btn {
+    color: white;
+    text-decoration: none;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    flex-wrap: wrap;
+}
+
+.btn-voltar {
+    color: #dc5400;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: 700;
+}

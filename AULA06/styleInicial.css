@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+    font-family: Poppins, sans-serif;
+    background-image: url(./Img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boss, .customer {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.titulo-principal {
+    color: red;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+a {
+    
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;    
+}
+
+.link {
+    margin-bottom: 10px;
+
+}
+
+.customer {
+    margin-top: 40px;
+ 
+}
+
+.card1 {
+    background-color: #d6d6d6;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: center;
+}

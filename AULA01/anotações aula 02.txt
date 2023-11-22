@@ -1,0 +1,15 @@
+31-10-2024
+
+HTML é linguagem de marcação.
+
+- <Strong> : coloca em negrito. Porém o ideal é utilizar o CSS pra estilizar o HTML.
+
+<a> : Hiperlinks para outras páginas ou na mesma.
+<href> um link ou um id existente na página.
+
+Exemplo:
+<a href=''https://arnia.com.br''>este é um link<a/>
+
+Comentarios em HTML ?
+Comentario CSS /** escrever comentario */ 
+

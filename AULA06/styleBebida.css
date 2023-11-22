@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+    font-family: Poppins, sans-serif;
+    background-image: url(./Img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    color: #a10303;
+    text-align: center;
+    font-size: 2em;
+}
+
+.container {
+    background-color: #d6d6d6;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+    margin: 1em auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.imagem {
+    width: 250px;
+    
+}
+
+.igredientes {
+    font-size: 14px;
+}

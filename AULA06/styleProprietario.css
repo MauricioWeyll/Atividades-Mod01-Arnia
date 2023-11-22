@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=poppins");
+
+body {
+    font-family: Poppins, sans-serif ;
+    background-image: url(./Img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    background-color: gainsboro;
+    width: 30%;
+    margin: 1em auto;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 8px 8px 7px -5px rgba(0,0,0,0.75);
+}
+
+.titulo-inicial {
+    color:#a10303;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.icones, .voltar {
+    width: 30px;
+    margin: 15px;   
+}
+
+.fonte-itens {
+    font-size: 1.5em;    
+}
+
+.link-itens {
+    margin-left: 16px;
+    color: #a10303;
+}
+
+.imagem {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+
+
