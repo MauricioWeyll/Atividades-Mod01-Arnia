@@ -1,9 +1,10 @@
 const io = require("../Io/io")
 
-io.write("Forneça um nome para repetir 10x.")
+io.write("Forneça um nome:")
 let name = io.read()
+io.write("Forneça o número de vezes que você quer repetir o nome:")
+let vezes = io.readInt()
 
-for(iterador = 0; iterador < 10; iterador++) {
-    let vezes = io.readInt()
-    io.write(name * vezes)
+for(iterador = 0; iterador < vezes; iterador++) {
+        io.write(name)
 }
