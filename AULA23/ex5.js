@@ -10,13 +10,13 @@ let iterador = -1
 let numerosInseridos = []
 let total = 0
 
+
 while (iterador !== 0){
     io.write("Escreva um número real (0 para parar) :")
     let numero = io.readFloat()
     if (numero == 0){
         break}
-    numerosInseridos.push(numero)
-    
+    numerosInseridos.push(numero)    
 }
 
 for (let i = 0; i < numerosInseridos.length; i++){
